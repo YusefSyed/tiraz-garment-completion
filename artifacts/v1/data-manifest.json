@@ -1,0 +1,38 @@
+{
+  "input_scope": "main-apparel category IDs only; no pixels, URLs or attributes",
+  "overlap_checks": {
+    "official_test_groups_excluded_for_train_overlap": 19,
+    "partition_group_intersection": 0
+  },
+  "partition_counts": {
+    "cal": 1678,
+    "temp": 1728,
+    "test": 962,
+    "train": 27683,
+    "tune": 3330
+  },
+  "partition_group_digests": {
+    "cal": "73fc4a102c738ab3913799f6c194c1fa959edbacac04c239836ff4bca69a971d",
+    "temp": "0d081e58e8ca334323c475fa24c66acbaddde820e477e9e428bc2304613a0cae",
+    "test": "2ef8279d01fee81bc1dfe9d105229d73c16002253362fd44e4b0b821a9cb9273",
+    "train": "fc701eace0d455a1c670e21cc5a5d465751f077055469528a6d637bd111de07c",
+    "tune": "98532029b9f08ace085b07a9f5edbcc391c1ef6bc5846358ded548863a017fad"
+  },
+  "schema_version": 1,
+  "sources": {
+    "official_validation": {
+      "annotations": 8781,
+      "duplicate_source_images_removed": 99,
+      "images": 1158,
+      "sha256": "f831f415edad12d52acde8b138fe7ebd1592b57bf0dcd6a3b63ba8cabd208223",
+      "source_groups": 1059
+    },
+    "train": {
+      "annotations": 333401,
+      "duplicate_source_images_removed": 2065,
+      "images": 45623,
+      "sha256": "f6af94fb8712bd8170a49c857e842e1227e6806c4f33f32340db0c849133e006",
+      "source_groups": 43558
+    }
+  }
+}

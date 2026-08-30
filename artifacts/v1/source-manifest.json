@@ -1,0 +1,17 @@
+{
+  "deterministic_algorithms": true,
+  "device": "cpu",
+  "numpy": "2.5.2",
+  "protocol_sha256": "74a42b6a32200a28e0ebfa51e1d3ef89ec534f10fbe87e559a2c38a3cbbc559f",
+  "python": "3.12.13",
+  "source_sha256": {
+    "__init__.py": "fc616ceb3f8b71d19019f14e9a2a44b8ab967042e01427c89ec8f899266ccb61",
+    "data.py": "8b007205bd90812ba89374a5cd8da784b71c215c304a09d5919f72a2159b21a9",
+    "metrics.py": "c2cbfc78c06139ddf724705f5e41bc4755e841e276cdd8716d6f6acdf7c85f32",
+    "models.py": "4d9dcff01fcbe906ee7b9eb1a1be1f6ed4880645a0dd5d8a279f8ccfaaa8b91a",
+    "protocol.py": "dfa4b22cca7b00f4f781afe05077cd829ab05779c802efc51ec4bd5f229ff999",
+    "run.py": "11cf6648710168334914b805ac99a9206881f99161ca6a709a4c597e066d8368"
+  },
+  "threads": 2,
+  "torch": "2.13.0"
+}

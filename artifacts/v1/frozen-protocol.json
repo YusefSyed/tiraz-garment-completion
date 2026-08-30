@@ -1,0 +1,88 @@
+{
+  "baselines": [
+    "training target frequency",
+    "smoothed training category co-occurrence"
+  ],
+  "batch_size": 256,
+  "calibration": "temperature fit on calibration partition only; separate held-out score-calibration half for conformal sets",
+  "calibration_partition": [
+    90,
+    100
+  ],
+  "conformal_alpha": 0.1,
+  "conformal_score": "1 - probability of true target; ceil((n+1)*(1-alpha)) order statistic; inclusive ties; all labels if rank exceeds n",
+  "dataset_sha256": {
+    "official_validation": "f831f415edad12d52acde8b138fe7ebd1592b57bf0dcd6a3b63ba8cabd208223",
+    "train": "f6af94fb8712bd8170a49c857e842e1227e6806c4f33f32340db0c849133e006"
+  },
+  "embedding_dim": 32,
+  "epochs": 18,
+  "experiment_id": "fashionpedia-category-completion-v1",
+  "hidden_dim": 64,
+  "learning_rate": 0.003,
+  "main_category_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26
+  ],
+  "metrics": [
+    "top1_accuracy",
+    "macro_f1_27_classes",
+    "negative_log_likelihood",
+    "brier",
+    "ece_10_bins",
+    "prediction_set_coverage",
+    "mean_set_size",
+    "singleton_rate",
+    "singleton_accuracy"
+  ],
+  "minimum_distinct_categories": 2,
+  "model_seeds": [
+    17,
+    29,
+    43
+  ],
+  "model_selection": "minimum tuning negative log likelihood per seed; no final-test selection",
+  "policy": "No image downloads, no private wardrobe data, no taste or preference inference, no production ranking changes. All seeds and failures reported. No hyperparameter tuning after final test.",
+  "schema_version": 1,
+  "split_seed": "tiraz-completion-v1",
+  "statistical_limit": "Coverage guarantees require exchangeability; official validation and missing-context stress are empirical audits, not guaranteed coverage in a user wardrobe population.",
+  "stress": "deterministically remove half of visible context categories, retaining at least one; same test targets and units",
+  "task": "Recover one deterministically masked main-apparel category from the remaining unordered category set in one annotated image.",
+  "test_partition": "official val2020, excluding source groups present in train2020",
+  "train_partition": [
+    0,
+    80
+  ],
+  "tune_partition": [
+    80,
+    90
+  ],
+  "uncertainty": "Wilson interval for descriptive accuracy and set coverage; paired bootstrap difference against co-occurrence by source-image unit, 2000 replicates",
+  "unit": "one source-image group; deterministic representative and one masked target per group",
+  "weight_decay": 0.0001
+}

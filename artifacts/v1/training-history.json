@@ -1,0 +1,278 @@
+{
+  "set_encoder_seed_17": [
+    {
+      "epoch": 1,
+      "training_nll": 2.1961783071010914,
+      "tuning_nll": 1.680284023284912
+    },
+    {
+      "epoch": 2,
+      "training_nll": 1.6112909707074667,
+      "tuning_nll": 1.556982398033142
+    },
+    {
+      "epoch": 3,
+      "training_nll": 1.5455530651240181,
+      "tuning_nll": 1.5240482091903687
+    },
+    {
+      "epoch": 4,
+      "training_nll": 1.5156203551310161,
+      "tuning_nll": 1.500530481338501
+    },
+    {
+      "epoch": 5,
+      "training_nll": 1.4945284105796706,
+      "tuning_nll": 1.4833451509475708
+    },
+    {
+      "epoch": 6,
+      "training_nll": 1.48036562068844,
+      "tuning_nll": 1.470719814300537
+    },
+    {
+      "epoch": 7,
+      "training_nll": 1.469538071672037,
+      "tuning_nll": 1.4609979391098022
+    },
+    {
+      "epoch": 8,
+      "training_nll": 1.4631819253676983,
+      "tuning_nll": 1.4599546194076538
+    },
+    {
+      "epoch": 9,
+      "training_nll": 1.4560789041805442,
+      "tuning_nll": 1.4520374536514282
+    },
+    {
+      "epoch": 10,
+      "training_nll": 1.4507927273935748,
+      "tuning_nll": 1.4487953186035156
+    },
+    {
+      "epoch": 11,
+      "training_nll": 1.446311094050109,
+      "tuning_nll": 1.4424183368682861
+    },
+    {
+      "epoch": 12,
+      "training_nll": 1.4414061485108356,
+      "tuning_nll": 1.4388841390609741
+    },
+    {
+      "epoch": 13,
+      "training_nll": 1.4388089307758438,
+      "tuning_nll": 1.4347145557403564
+    },
+    {
+      "epoch": 14,
+      "training_nll": 1.4368240869497841,
+      "tuning_nll": 1.4336005449295044
+    },
+    {
+      "epoch": 15,
+      "training_nll": 1.432523713085868,
+      "tuning_nll": 1.4373174905776978
+    },
+    {
+      "epoch": 16,
+      "training_nll": 1.4301408477779138,
+      "tuning_nll": 1.4369158744812012
+    },
+    {
+      "epoch": 17,
+      "training_nll": 1.427587085233036,
+      "tuning_nll": 1.4344305992126465
+    },
+    {
+      "epoch": 18,
+      "training_nll": 1.426369774265363,
+      "tuning_nll": 1.4331157207489014
+    }
+  ],
+  "set_encoder_seed_29": [
+    {
+      "epoch": 1,
+      "training_nll": 2.2723559697222186,
+      "tuning_nll": 1.796379804611206
+    },
+    {
+      "epoch": 2,
+      "training_nll": 1.6723084470265708,
+      "tuning_nll": 1.5787523984909058
+    },
+    {
+      "epoch": 3,
+      "training_nll": 1.5568317019585882,
+      "tuning_nll": 1.5347011089324951
+    },
+    {
+      "epoch": 4,
+      "training_nll": 1.5241314607243082,
+      "tuning_nll": 1.5108592510223389
+    },
+    {
+      "epoch": 5,
+      "training_nll": 1.5041225884504428,
+      "tuning_nll": 1.49868643283844
+    },
+    {
+      "epoch": 6,
+      "training_nll": 1.4903134412556738,
+      "tuning_nll": 1.4873934984207153
+    },
+    {
+      "epoch": 7,
+      "training_nll": 1.4801222676724077,
+      "tuning_nll": 1.4755783081054688
+    },
+    {
+      "epoch": 8,
+      "training_nll": 1.4728322080056437,
+      "tuning_nll": 1.4693406820297241
+    },
+    {
+      "epoch": 9,
+      "training_nll": 1.4645216069297113,
+      "tuning_nll": 1.457750678062439
+    },
+    {
+      "epoch": 10,
+      "training_nll": 1.4576370333012993,
+      "tuning_nll": 1.4552115201950073
+    },
+    {
+      "epoch": 11,
+      "training_nll": 1.4536163232636814,
+      "tuning_nll": 1.4514459371566772
+    },
+    {
+      "epoch": 12,
+      "training_nll": 1.4493601040159247,
+      "tuning_nll": 1.4469025135040283
+    },
+    {
+      "epoch": 13,
+      "training_nll": 1.4450890197922022,
+      "tuning_nll": 1.449076771736145
+    },
+    {
+      "epoch": 14,
+      "training_nll": 1.4427192052251336,
+      "tuning_nll": 1.4391521215438843
+    },
+    {
+      "epoch": 15,
+      "training_nll": 1.437548907756616,
+      "tuning_nll": 1.4356582164764404
+    },
+    {
+      "epoch": 16,
+      "training_nll": 1.4354807084873527,
+      "tuning_nll": 1.4370646476745605
+    },
+    {
+      "epoch": 17,
+      "training_nll": 1.432404175282851,
+      "tuning_nll": 1.43140709400177
+    },
+    {
+      "epoch": 18,
+      "training_nll": 1.4290527180130588,
+      "tuning_nll": 1.4354699850082397
+    }
+  ],
+  "set_encoder_seed_43": [
+    {
+      "epoch": 1,
+      "training_nll": 2.2371128015175756,
+      "tuning_nll": 1.7614234685897827
+    },
+    {
+      "epoch": 2,
+      "training_nll": 1.633625268458166,
+      "tuning_nll": 1.5523585081100464
+    },
+    {
+      "epoch": 3,
+      "training_nll": 1.5384346005958194,
+      "tuning_nll": 1.5269170999526978
+    },
+    {
+      "epoch": 4,
+      "training_nll": 1.5123581498903298,
+      "tuning_nll": 1.5028588771820068
+    },
+    {
+      "epoch": 5,
+      "training_nll": 1.497255832715836,
+      "tuning_nll": 1.4919766187667847
+    },
+    {
+      "epoch": 6,
+      "training_nll": 1.4844645094984343,
+      "tuning_nll": 1.4790443181991577
+    },
+    {
+      "epoch": 7,
+      "training_nll": 1.4749433191956949,
+      "tuning_nll": 1.4725040197372437
+    },
+    {
+      "epoch": 8,
+      "training_nll": 1.464756893180627,
+      "tuning_nll": 1.4614002704620361
+    },
+    {
+      "epoch": 9,
+      "training_nll": 1.4570192330292582,
+      "tuning_nll": 1.4560085535049438
+    },
+    {
+      "epoch": 10,
+      "training_nll": 1.4502247849869099,
+      "tuning_nll": 1.4559873342514038
+    },
+    {
+      "epoch": 11,
+      "training_nll": 1.4454430085672307,
+      "tuning_nll": 1.4479284286499023
+    },
+    {
+      "epoch": 12,
+      "training_nll": 1.4400761942985245,
+      "tuning_nll": 1.4393612146377563
+    },
+    {
+      "epoch": 13,
+      "training_nll": 1.4362051452820612,
+      "tuning_nll": 1.4403141736984253
+    },
+    {
+      "epoch": 14,
+      "training_nll": 1.433209555228227,
+      "tuning_nll": 1.4427289962768555
+    },
+    {
+      "epoch": 15,
+      "training_nll": 1.4317366443126311,
+      "tuning_nll": 1.4338173866271973
+    },
+    {
+      "epoch": 16,
+      "training_nll": 1.4301683156255982,
+      "tuning_nll": 1.432118535041809
+    },
+    {
+      "epoch": 17,
+      "training_nll": 1.4276014424445196,
+      "tuning_nll": 1.4312012195587158
+    },
+    {
+      "epoch": 18,
+      "training_nll": 1.4254379587289214,
+      "tuning_nll": 1.4282219409942627
+    }
+  ]
+}
