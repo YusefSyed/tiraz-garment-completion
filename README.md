@@ -1,5 +1,7 @@
 # Tiraz: garment completion with calibrated uncertainty
 
+[![CI](https://github.com/YusefSyed/tiraz-garment-completion/actions/workflows/ci.yml/badge.svg)](https://github.com/YusefSyed/tiraz-garment-completion/actions/workflows/ci.yml)
+
 An annotation-only PyTorch experiment: hide one garment category in an annotated
 image and predict it from the remaining unordered category set. The package
 compares frequency and co-occurrence baselines with three seeded Deep Sets-style
@@ -23,6 +25,13 @@ withheld. That limitation is retained, not tuned away.
 [all metrics](artifacts/v1/metrics.json). Two complete CPU runs reproduced all
 11 artifacts byte-for-byte, including three trained checkpoints. These figures
 describe this fixed category-completion task, not user-outfit performance.
+
+## Inspect without training
+
+The [result report](artifacts/v1/report.md), [metrics](artifacts/v1/metrics.json),
+and [data manifest](artifacts/v1/data-manifest.json) are committed for review.
+The test suite below uses small fixtures and does not download Fashionpedia or
+rerun the full training experiment. The full reproduction is a separate step.
 
 ## Design
 
@@ -50,6 +59,8 @@ Use Python 3.12 and uv from this directory. Linux resolves CPU-only PyTorch whee
 The annotation downloads total approximately 557 MB; they remain outside Git.
 
 ```sh
+git clone https://github.com/YusefSyed/tiraz-garment-completion.git
+cd tiraz-garment-completion
 uv sync --frozen
 uv run ruff check .
 uv run mypy
